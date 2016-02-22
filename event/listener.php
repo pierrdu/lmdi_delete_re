@@ -58,41 +58,4 @@ class listener implements EventSubscriberInterface
 		$event['page_data'] = $page_data;
 	}
 
-	/*
-	Structure du rowset :
-	array(1) {
-		[2]=> array(29) {
-			["hide_post"]=> bool(false)
-			["post_id"]=> string(1) "2"
-			["post_time"]=> string(10) "1426515551"
-			["user_id"]=> string(1) "2"
-			["username"]=> string(7) "pierred"
-			["user_colour"]=> string(6) "AA0000"
-			["topic_id"]=> string(1) "2"
-			["forum_id"]=> string(1) "2"
-			["post_subject"]=> string(17) "Essai de balisage"
-			["post_edit_count"]=> string(1) "0"
-			["post_edit_time"]=> string(1) "0"
-			["post_edit_reason"]=> string(0) ""
-			["post_edit_user"]=> string(1) "0"
-			["post_edit_locked"]=> string(1) "0"
-			["post_delete_time"]=> string(1) "0"
-			["post_delete_reason"]=> string(0) ""
-			["post_delete_user"]=> string(1) "0"
-			["icon_id"]=> int(0)
-			["post_attachment"]=> string(1) "0"
-			["post_visibility"]=> string(1) "1"
-			["post_reported"]=> string(1) "0"
-			["post_username"]=> string(0) ""
-			["post_text"]=> string(31) "Je cherche le terme aberration."
-			["bbcode_uid"]=> string(8) "l2olxddq"
-			["bbcode_bitfield"]=> string(0) ""
-			["enable_smilies"]=> string(1) "1"
-			["enable_sig"]=> string(1) "1"
-			["friend"]=> NULL
-			["foe"]=> NULL }
-		}
-	*/
-
 }	// Fin de la classe main_listener
-
