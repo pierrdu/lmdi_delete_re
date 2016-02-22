@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "Deletes the 'Re:' prefix in subject lines",
 	"homepage": "http://www.insecte.org/ext/readme.txt",
-	"version": "1.0.1",
-	"time": "2016-2-20",
+	"version": "1.0.12",
+	"time": "2016-2-22",
 	"license": "GPL-2.0",
 	"authors": [
 		{
