@@ -27,28 +27,6 @@ class listener implements EventSubscriberInterface
 	);
 	}
 
-	/* @var \phpbb\controller\helper */
-	protected $helper;
-
-	/* @var \phpbb\template\template */
-	protected $template;
-
-
-	/**
-	* Constructor
-	*
-	* @param \phpbb\controller\helper	$helper	Controller helper object
-	* @param \phpbb\template			$template	Template object
-	*/
-	public function __construct
-		(\phpbb\controller\helper $helper,
-		\phpbb\template\template $template
-		)
-	{
-		$this->helper = $helper;
-		$this->template = $template;
-	}
-
 	public function delete_re ($event)
 	{
 		$page_data = $event['page_data'];
@@ -58,4 +36,4 @@ class listener implements EventSubscriberInterface
 		$event['page_data'] = $page_data;
 	}
 
-}	// Fin de la classe main_listener
+}

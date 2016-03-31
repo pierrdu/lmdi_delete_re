@@ -1,8 +1,5 @@
 services:
     lmdi.delre.listener:
         class: lmdi\delre\event\listener
-        arguments:
-            - @controller.helper
-            - @template
         tags:
             - { name: event.listener }
