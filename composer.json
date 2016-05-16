@@ -12,13 +12,13 @@
 		"email": "pierre@duhem.com",
 		"homepage": "http://www.insecte.org/ext/readme.txt",
 		"role": "Extension Developer"
-		}
+		},
 		{
 		"name": "kasimi",
 		"email": "",
 		"homepage": "https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1330603",
 		"role": "Solution for managing the quick reply editor"
-		},
+		}
 	],
 	"require": {
 		"php": ">=5.3.3",
