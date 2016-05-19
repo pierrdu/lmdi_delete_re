@@ -39,9 +39,9 @@ class listener implements EventSubscriberInterface
 	public function delete_re ($event)
 	{
 		$page_data = $event['page_data'];
-		$titre = $page_data['subject'];
+		$titre = $page_data['SUBJECT'];
 		$titre = preg_replace('/^Re: /', '', $titre);
-		$page_data['subject'] = $titre;
+		$page_data['SUBJECT'] = $titre;
 		$event['page_data'] = $page_data;
 	}
 
