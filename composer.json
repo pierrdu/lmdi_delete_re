@@ -2,15 +2,15 @@
 	"name": "lmdi/delre",
 	"type": "phpbb-extension",
 	"description": "Deletes the 'Re:' prefix in subject lines",
-	"homepage": "http://www.insecte.org/ext/readme.txt",
+	"homepage": "https://www.insecte.org/ext/readme.txt",
 	"version": "1.0.9",
 	"time": "2020-04-17",
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 	"authors": [
 		{
 		"name": "Pierre Duhem",
 		"email": "pierre@duhem.com",
-		"homepage": "http://www.insecte.org/ext/readme.txt",
+		"homepage": "https://www.insecte.org/ext/readme.txt",
 		"role": "Extension Developer"
 		},
 		{
