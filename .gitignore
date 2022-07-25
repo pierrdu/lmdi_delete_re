@@ -44,3 +44,11 @@ Temporary Items
 *.his
 *.xml.dist
 *.bat
+
+# =========================
+# Developpment components
+# =========================
+
+# Composer
+composer.phar
+vendor/
