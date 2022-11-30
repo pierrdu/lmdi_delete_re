@@ -2,7 +2,7 @@
 /**
  *
  * @package phpBB Extension - LMDI Delete Re:
- * @copyright (c) 2015-2020 LMDI - Pierre Duhem
+ * @copyright (c) 2015-2022 LMDI - Pierre Duhem
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -32,11 +32,11 @@ class listener implements EventSubscriberInterface
 
 	static public function getSubscribedEvents()
 	{
-		return array(
-			'core.posting_modify_template_vars' => 'delete_re',
-			'core.viewtopic_modify_page_title'  => 'delete_re_2',
-			'core.pm_modify_message_subject'    => 'delete_re_pm',
-		);
+	return array(
+		'core.posting_modify_template_vars'	=> 'delete_re',
+		'core.viewtopic_modify_page_title'	=> 'delete_re_2',
+		'core.pm_modify_message_subject'	=> 'delete_re_pm',
+	);
 	}
 
 
